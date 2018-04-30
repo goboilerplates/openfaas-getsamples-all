@@ -18,6 +18,7 @@ install:
   - curl -sSL https://cli.openfaas.com | sh
 
 script:
+ - source ~/.bashrc
  - bash script/coverage.sh
 
 after_success:

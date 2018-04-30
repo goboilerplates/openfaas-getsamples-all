@@ -1,1 +1,1 @@
-# Boilerplate for OpenFaas Function in Go
+# Boilerplate for GetSamplesAll OpenFaas Function in Go
