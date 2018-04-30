@@ -2,7 +2,7 @@
 [![Build Status](https://travis-ci.org/goboilerplates/openfaas-getsamples-all.svg?branch=master)](https://travis-ci.org/goboilerplates/openfaas-getsamples-all)
 [![codecov](https://codecov.io/gh/goboilerplates/openfaas-getsamples-all/branch/master/graph/badge.svg)](https://codecov.io/gh/goboilerplates/openfaas-getsamples-all)
 [![Go Report Card](https://goreportcard.com/badge/github.com/goboilerplates/openfaas-getsamples-all)](https://goreportcard.com/report/github.com/goboilerplates/openfaas-getsamples-all)
-[![GoDoc](https://godoc.org/github.com/goboilerplates/openfaas-getsamples-all?status.svg)](https://godoc.org/github.com/goboilerplates/openfaas-getsamples-all)
+[![GoDoc](https://godoc.org/github.com/goboilerplates/openfaas-getsamples-all/function?status.svg)](https://godoc.org/github.com/goboilerplates/openfaas-getsamples-all/function)
 [![](https://images.microbadger.com/badges/image/goboilerplates/openfaas-getsamples-all.svg)](https://microbadger.com/images/goboilerplates/openfaas-getsamples-all)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/goboilerplates/openfaas-getsamples-all/blob/master/LICENSE)
 
