@@ -26,8 +26,12 @@
 
 
 [[constraint]]
-  name = "github.com/goboilerplates/core"
-  version = "0.0.0"
+  branch = "master"
+  name = "github.com/bmizerany/assert"
+
+[[constraint]]
+  branch = "master"
+  name = "github.com/goboilerplates/micro-rest"
 
 [[constraint]]
   name = "github.com/stretchr/testify"

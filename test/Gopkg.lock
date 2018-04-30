@@ -14,6 +14,12 @@
   version = "0.0.0"
 
 [[projects]]
+  branch = "master"
+  name = "github.com/goboilerplates/openfaas-getsamples-all"
+  packages = ["function"]
+  revision = "1b63d713d662728b3db617b39f1c8325818971b2"
+
+[[projects]]
   name = "github.com/pmezard/go-difflib"
   packages = ["difflib"]
   revision = "792786c7400a136282c1664665ae0a8db921c6c2"
@@ -28,6 +34,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "d78a3adf52281262025963351f0f99ee0e490ed23621b2153394efcc283d4533"
+  inputs-digest = "d391f67daabcf6d79887cadf6464adfbbaa0fd398140b5ab901b944c898bcece"
   solver-name = "gps-cdcl"
   solver-version = 1

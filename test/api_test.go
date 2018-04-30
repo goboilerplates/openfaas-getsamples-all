@@ -4,9 +4,8 @@ import (
 	"testing"
 
 	"github.com/goboilerplates/core"
-	"github.com/stretchr/testify/assert"
-
 	"github.com/goboilerplates/openfaas-getsamples-all/function"
+	"github.com/stretchr/testify/assert"
 )
 
 // TestGetSamplesAllAPIImplAll .

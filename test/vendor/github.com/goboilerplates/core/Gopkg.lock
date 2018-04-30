@@ -2,16 +2,34 @@
 
 
 [[projects]]
+  branch = "master"
+  name = "github.com/bmizerany/assert"
+  packages = ["."]
+  revision = "b7ed37b82869576c289d7d97fb2bbd8b64a0cb28"
+
+[[projects]]
   name = "github.com/davecgh/go-spew"
   packages = ["spew"]
   revision = "346938d642f2ec3594ed81d874461961cd0faa76"
   version = "v1.1.0"
 
 [[projects]]
-  name = "github.com/goboilerplates/core"
+  branch = "master"
+  name = "github.com/goboilerplates/micro-rest"
+  packages = ["core"]
+  revision = "37a9c33b6b6759eec56f3bd6ecaa2809377cd5be"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/kr/pretty"
   packages = ["."]
-  revision = "3fc72484567fc30f9f823bce5143aaccbaf6670e"
-  version = "0.0.0"
+  revision = "cfb55aafdaf3ec08f0db22699ab822c50091b1c4"
+
+[[projects]]
+  branch = "master"
+  name = "github.com/kr/text"
+  packages = ["."]
+  revision = "7cafcd837844e784b526369c9bce262804aebc60"
 
 [[projects]]
   name = "github.com/pmezard/go-difflib"
@@ -28,6 +46,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "d78a3adf52281262025963351f0f99ee0e490ed23621b2153394efcc283d4533"
+  inputs-digest = "0ea9e40682c82f4625fa618f971b2b5bef269303ebe115326c6d2c4f58552b41"
   solver-name = "gps-cdcl"
   solver-version = 1
