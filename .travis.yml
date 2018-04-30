@@ -15,7 +15,7 @@ go:
 install:
   - go get -u github.com/golang/dep/cmd/dep
   - cd function && dep ensure && cd ..
-  - brew install faas-cli
+  - curl -sSL https://cli.openfaas.com | sudo sh
 
 script:
  - bash script/coverage.sh
