@@ -1,0 +1,1 @@
+# Boilerplate for OpenFaas Function in Go
