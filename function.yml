@@ -6,4 +6,4 @@ functions:
   fn-getsamples-all:
     lang: go
     handler: ./function
-    image: goboilerplates/fn-getsamples-all
+    image: goboilerplates/openfaas-getsamples-all
