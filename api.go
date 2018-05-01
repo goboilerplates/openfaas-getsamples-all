@@ -1,4 +1,4 @@
-package function
+package main
 
 import (
 	"github.com/goboilerplates/core"

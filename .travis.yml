@@ -14,7 +14,7 @@ go:
 
 install:
   - go get -u github.com/golang/dep/cmd/dep
-  - cd function && dep ensure && cd ..
+  - dep ensure 
   - curl -sSL https://cli.openfaas.com | sudo sh
 
 script:

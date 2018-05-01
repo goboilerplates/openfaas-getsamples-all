@@ -5,5 +5,5 @@ provider:
 functions:
   fn-getsamples-all:
     lang: go
-    handler: ./function
+    handler: ./
     image: goboilerplates/openfaas-getsamples-all

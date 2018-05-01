@@ -1,15 +1,14 @@
-package function_test
+package main
 
 import (
 	"testing"
 
-	"github.com/goboilerplates/openfaas-getsamples-all/function"
 	"github.com/stretchr/testify/assert"
 )
 
 // TestHandle .
 func TestHandle(test *testing.T) {
-	result := function.Handle(nil)
+	result := Handle(nil)
 
 	assert.NotNil(test, result)
 	assert.True(test, len(result) > 0)
@@ -17,6 +16,6 @@ func TestHandle(test *testing.T) {
 
 // TestCreateAPI .
 func TestCreateAPI(test *testing.T) {
-	result := function.CreateAPI()
+	result := CreateAPI()
 	assert.NotNil(test, result)
 }

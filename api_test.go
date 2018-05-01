@@ -1,16 +1,15 @@
-package function_test
+package main
 
 import (
 	"testing"
 
 	"github.com/goboilerplates/core"
-	"github.com/goboilerplates/openfaas-getsamples-all/function"
 	"github.com/stretchr/testify/assert"
 )
 
 // TestGetSamplesAllAPIImplAll .
 func TestGetSamplesAllAPIImplAll(test *testing.T) {
-	api := function.GetSamplesAllAPIImpl{
+	api := GetSamplesAllAPIImpl{
 		Interactor: core.CreateDefaultGetSamples("Hello"),
 	}
 
